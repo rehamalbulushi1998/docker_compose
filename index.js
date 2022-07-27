@@ -1,8 +1,8 @@
 const express = require('express')
-const mysql = require('mysql2');
+const mysql = require('mysql');
 
 const mysqlConfig = {
-  host: "mysql_server",
+  host: process.env.mysql_server",
   user: "reham",
   password: "reham12345",
   database: "docker_db"
