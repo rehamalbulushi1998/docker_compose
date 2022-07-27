@@ -15,9 +15,5 @@ services:
   
   mysql_server:
     image: mysql:8.0
-    environment: 
-      - MYSQL_DATABASE=docker_db
-      - MYSQL_USER=reham
-      - MYSQL_PASSWORD=reham12345
-      - MYSQL_ROOT_PASSWORD=reham12345
+    
     
