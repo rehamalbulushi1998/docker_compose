@@ -2,10 +2,11 @@ const express = require('express')
 const mysql = require('mysql');
 
 const mysqlConfig = {
-  host: process.env.mysql_server",
-  user: "reham",
-  password: "reham12345",
-  database: "docker_db"
+  host: process.env.MYSQL_CLOUD_HOST,
+  user: process.env.MYSQL_CLOUD_USER,
+  password: process.env.MYSQL_CLOUD_PASSWORD,
+  port: process.env.MYSQL_PORT,
+  database: process.env.MYSQL_DATABASE
 }
 
 
